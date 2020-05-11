@@ -1,0 +1,65 @@
+*{
+  color: white;
+
+}
+body{
+  font-family:  'Fredoka One', cursive;
+  background-image: url(background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+ #email {
+  background-color: rgba(204, 0, 0, 0.5);
+  padding: 0.5em;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 1em;
+}
+#username{
+ background-color: rgba(204, 0, 0, 0.5);
+ padding: 0.5em;
+ border: 2px solid white;
+ border-radius: 15px;
+ margin: 1em;
+}
+#password{
+  background-color: rgba(204, 0, 0, 0.5);
+  padding: 0.5em;
+  border: 2px solid white;
+  border-radius: 15px;
+margin: 1em;
+}
+form{
+  padding: 2em;
+  text-align: center;
+  margin-left: 18em;
+  margin-right: 18em;
+  margin-top: 10em;
+
+  align-items: center;
+  background-color: rgba(204, 0, 0, 0.5);
+}
+h1,.email,.username,.password {
+
+  color: white;
+  font-weight: bold;
+
+}
+.button button{
+  background-color:rgba(204, 0, 0, 0.5) ;
+  padding: .5em;
+  border: 2px solid white;
+  font-family:  'Fredoka One', cursive;
+  font-weight: bold;
+  border-radius: 15px;
+  color: white;
+  margin: 2em;
+}
+.button button:hover{
+  background-color: white;
+  color:red;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  transition: 1s;
+}

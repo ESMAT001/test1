@@ -1,0 +1,37 @@
+body{
+  background-image: url(background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+body img{
+  margin: 18em;
+  margin-top: 18em;
+  align-items: center;
+
+}
+.head{
+  color: white;
+  background-color: rgba(204,0,0,0.8);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  margin-left: 33em;
+  margin-right: 33em;
+  margin-top: 11em;
+  text-align: center;
+ font-family: 'Fredoka One', cursive;
+}
+.head h3 a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.head h3 a:hover{
+    color:rgba(204,0,0,0.8); ;
+}
+.head:hover{
+  background-color: white;
+  color: red;
+  transition: 1.5s;
+}

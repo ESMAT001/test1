@@ -1,0 +1,219 @@
+*{
+  margin: 0.2em;
+  color:white;
+}
+
+body{
+  margin: 1em;
+  background-image: url(back.jpg);
+  padding: 2em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+h2,h4{
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 5px;
+}
+.aks{
+  font-family: 'Fredoka One', cursive;
+
+
+
+}
+.aks p{
+  position: absolute;
+  top:192em;
+  left:40%;
+  text-align: center;
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgba(204,0,0,0.8);
+  padding: 1em;
+  border: 1px solid rgba(204,0,0,0.5) ;
+  border-radius: 35px;
+
+
+}
+.aks p:hover{
+  background-color: white;
+  color: red;
+  transition: 2s;
+  padding: 1.4em;
+
+}
+.aks img{
+ flex: auto;
+ margin-top:0em;
+ margin-bottom: 0px;
+
+
+
+
+}
+.inspire{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 17em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 12em;
+  background-color:rgba(204,0,0,0.8);
+  padding: 1.5em;
+  border: 1px solid rgba(204,0,0,0.5) ;
+  border-radius: 35px;
+}
+.inspire:hover{
+  background-color: white;
+  color: red;
+  transition: 2s;
+  border: 1px solid white ;
+  border-radius: 35px;
+
+
+}
+
+
+.header{
+  font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1.5px;
+
+
+}
+.list ul li{
+  position: fixed;
+  top: 7.4%;
+  left: 40%;
+  float: right;
+  width: auto;
+  clear:left;
+  background-color: rgba(204,0,0,0.8);
+  display:inline-block;
+
+  padding: 1em;
+
+  margin-left:2em;
+  margin-top: 1em;
+}
+.list ul li:nth-child(1){
+  position: absolute;
+  top: 7.4%;
+  left: 77%;
+}
+.list ul li:nth-child(2){
+  position:absolute;
+  top: 7.4%;
+  left: 65%;
+}
+.list ul li:nth-child(3){
+  position: absolute;
+  top: 7.4%;
+  left: 53%;
+}
+.list ul li:nth-child(4){
+  position:absolute;
+  top: 7.4%;
+  left: 42.5%;
+}
+.header ul li a{
+  text-decoration: none;
+  text-align: center;
+}
+.header ul li:hover{
+
+
+  margin: 2em;
+  border-radius:0em;
+  transition:1s;
+
+}
+
+#line1 {
+  display: block;
+  margin-top: 4em;
+
+}
+.head1 h2{
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid rgba(204,0,0,0.8);
+  border-radius: 40px;
+  margin-left: 0.6em;
+
+  background-color: rgba(204,0,0,0.8);
+}
+.head1 h2:hover{
+  background-color: white;
+  color: red;
+  margin-left: 5em;
+  border: 1px solid white ;
+  border-radius: 40px;
+  transition: 2s;
+
+}
+.png1 img{
+  position:absolute;
+  top: -30px;
+  left: 10px;
+  padding-bottom: 2em;
+  margin-top: -1em;
+}
+.para{
+
+
+    font-family: 'Roboto', sans-serif;
+
+}
+.para p{
+  height: 250px;
+  text-align: left;
+  padding: 1em;
+  margin: 1em;
+  background-color: rgba(204,0,0,0.5) ;
+}
+.para p:hover{
+ transition: 1s;
+  font-weight: bold;
+
+}
+.para img:hover{
+  transition: 2s;
+  margin: 2em ;
+  margin-top: 3em;
+  width: 22%;
+  height: auto;
+
+
+}
+.para img{
+  float: left;
+  padding-right: 0.5em;
+}
+.footer h4{
+  background-color: rgba(204,0,0,0.8);
+  text-align: center;
+  padding: 2em;
+  border: 1px solid rgba(204,0,0,0.5);
+  border-radius: 40px;
+  margin-bottom: 1em;
+  margin-left: 18em;
+  margin-right: 18em;
+}
+.footer h4:hover{
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: white;
+  color: red;
+  transition: 2s;
+  margin-left: 14em;
+  margin-right: 14em;
+
+}
